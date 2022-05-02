@@ -9,13 +9,27 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            ZStack {
+                Color(.white)
+                Text("Hello, world!")
+                    .padding()
+            }
+            .navigationBarItems(leading: Button(action: {
+                print("Button tapped!")
+            }, label: {
+                Image(systemName: "list.bullet")
+                    .foregroundColor(.black)
+            }))
+            .navigationTitle("Home")
+            
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()   
+        ContentView()
+            .previewDevice(PreviewDevice(rawValue: "iPhone 13 Pro"))
     }
 }

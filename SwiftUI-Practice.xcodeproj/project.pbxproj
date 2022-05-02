@@ -14,6 +14,10 @@
 		7D46615F281F03C000FBAE67 /* SwiftUI_PracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46615E281F03C000FBAE67 /* SwiftUI_PracticeTests.swift */; };
 		7D466169281F03C000FBAE67 /* SwiftUI_PracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D466168281F03C000FBAE67 /* SwiftUI_PracticeUITests.swift */; };
 		7D46616B281F03C000FBAE67 /* SwiftUI_PracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46616A281F03C000FBAE67 /* SwiftUI_PracticeUITestsLaunchTests.swift */; };
+		7D466178281F07D500FBAE67 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D466177281F07D500FBAE67 /* SideMenuView.swift */; };
+		7D46617A281F07E000FBAE67 /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D466179281F07E000FBAE67 /* SideMenuHeaderView.swift */; };
+		7D46617C281F07EC00FBAE67 /* SideMenuOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46617B281F07EC00FBAE67 /* SideMenuOptionView.swift */; };
+		7D46617E281F07F900FBAE67 /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46617D281F07F900FBAE67 /* SideMenuViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		7D466164281F03C000FBAE67 /* SwiftUI-PracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-PracticeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D466168281F03C000FBAE67 /* SwiftUI_PracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PracticeUITests.swift; sourceTree = "<group>"; };
 		7D46616A281F03C000FBAE67 /* SwiftUI_PracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_PracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7D466177281F07D500FBAE67 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		7D466179281F07E000FBAE67 /* SideMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuHeaderView.swift; sourceTree = "<group>"; };
+		7D46617B281F07EC00FBAE67 /* SideMenuOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionView.swift; sourceTree = "<group>"; };
+		7D46617D281F07F900FBAE67 /* SideMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +106,10 @@
 				7D46614F281F03BF00FBAE67 /* ContentView.swift */,
 				7D466151281F03C000FBAE67 /* Assets.xcassets */,
 				7D466153281F03C000FBAE67 /* Preview Content */,
+				7D466177281F07D500FBAE67 /* SideMenuView.swift */,
+				7D466179281F07E000FBAE67 /* SideMenuHeaderView.swift */,
+				7D46617B281F07EC00FBAE67 /* SideMenuOptionView.swift */,
+				7D46617D281F07F900FBAE67 /* SideMenuViewModel.swift */,
 			);
 			path = "SwiftUI-Practice";
 			sourceTree = "<group>";
@@ -257,7 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D466178281F07D500FBAE67 /* SideMenuView.swift in Sources */,
+				7D46617A281F07E000FBAE67 /* SideMenuHeaderView.swift in Sources */,
 				7D466150281F03BF00FBAE67 /* ContentView.swift in Sources */,
+				7D46617C281F07EC00FBAE67 /* SideMenuOptionView.swift in Sources */,
+				7D46617E281F07F900FBAE67 /* SideMenuViewModel.swift in Sources */,
 				7D46614E281F03BF00FBAE67 /* SwiftUI_PracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
