@@ -8,26 +8,32 @@
 import SwiftUI
 
 struct SideMenuView: View {
+    @Binding var isShowing: Bool
+    
     var body: some View {
         ZStack {
             LinearGradient(gradient: Gradient(colors: [Color.green, Color.blue]), startPoint: .top, endPoint: .bottom)
                 .ignoresSafeArea()
             
             VStack {
-                // Header
-                SideMenuHeaderView()
-                    .foregroundColor(.white)
+                SideMenuHeaderView(isShowing: $isShowing)
+                    .frame(height: 240)
                 
+                ForEach(SideMenuViewModel.allCases, id: \.self) { option in
+                    NavigationLink(destination: Text(option.title)) { // Add a view instead of the Text to build out further
+                        SideMenuOptionView(option: option)
+                    }
+                }
                 
-                // Cell items
-                
+                Spacer()
             }
+            .navigationBarHidden(true)
         }
     }
 }
 
 struct SideMenuView_Previews: PreviewProvider {
     static var previews: some View {
-        SideMenuView()
+        SideMenuView(isShowing: .constant(true))
     }
 }

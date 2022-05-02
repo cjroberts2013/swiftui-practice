@@ -6,3 +6,28 @@
 //
 
 import Foundation
+
+enum SideMenuViewModel: Int, CaseIterable {
+    case profile
+    case messages
+    case notifications
+    case logout
+    
+    var title: String {
+        switch self {
+        case .profile: return "Profile"
+        case .messages: return "Messages"
+        case .notifications: return "Notifications"
+        case .logout: return "Logout"
+        }
+    }
+    
+    var imageName: String {
+        switch self {
+        case .profile: return "person"
+        case .messages: return "bubble.left"
+        case .notifications: return "bell"
+        case .logout: return "arrow.left.square"
+        }
+    }
+}
