@@ -30,4 +30,6 @@ enum SideMenuViewModel: Int, CaseIterable {
         case .logout: return "arrow.left.square"
         }
     }
+    
+    // Add a view as a component and that will be the destination we pass to the side menu
 }

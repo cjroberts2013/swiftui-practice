@@ -18,6 +18,8 @@
 		7D46617A281F07E000FBAE67 /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D466179281F07E000FBAE67 /* SideMenuHeaderView.swift */; };
 		7D46617C281F07EC00FBAE67 /* SideMenuOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46617B281F07EC00FBAE67 /* SideMenuOptionView.swift */; };
 		7D46617E281F07F900FBAE67 /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46617D281F07F900FBAE67 /* SideMenuViewModel.swift */; };
+		7DFDFCC92820A6850049A283 /* AmazonMusicSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFDFCC82820A6850049A283 /* AmazonMusicSearch.swift */; };
+		7DFDFCCB2820A7380049A283 /* AmazonMusicSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFDFCCA2820A7380049A283 /* AmazonMusicSearchModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		7D466179281F07E000FBAE67 /* SideMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuHeaderView.swift; sourceTree = "<group>"; };
 		7D46617B281F07EC00FBAE67 /* SideMenuOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionView.swift; sourceTree = "<group>"; };
 		7D46617D281F07F900FBAE67 /* SideMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewModel.swift; sourceTree = "<group>"; };
+		7DFDFCC82820A6850049A283 /* AmazonMusicSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonMusicSearch.swift; sourceTree = "<group>"; };
+		7DFDFCCA2820A7380049A283 /* AmazonMusicSearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonMusicSearchModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,8 @@
 				7D466179281F07E000FBAE67 /* SideMenuHeaderView.swift */,
 				7D46617B281F07EC00FBAE67 /* SideMenuOptionView.swift */,
 				7D46617D281F07F900FBAE67 /* SideMenuViewModel.swift */,
+				7DFDFCCA2820A7380049A283 /* AmazonMusicSearchModel.swift */,
+				7DFDFCC82820A6850049A283 /* AmazonMusicSearch.swift */,
 			);
 			path = "SwiftUI-Practice";
 			sourceTree = "<group>";
@@ -273,6 +279,8 @@
 				7D46617A281F07E000FBAE67 /* SideMenuHeaderView.swift in Sources */,
 				7D466150281F03BF00FBAE67 /* ContentView.swift in Sources */,
 				7D46617C281F07EC00FBAE67 /* SideMenuOptionView.swift in Sources */,
+				7DFDFCC92820A6850049A283 /* AmazonMusicSearch.swift in Sources */,
+				7DFDFCCB2820A7380049A283 /* AmazonMusicSearchModel.swift in Sources */,
 				7D46617E281F07F900FBAE67 /* SideMenuViewModel.swift in Sources */,
 				7D46614E281F03BF00FBAE67 /* SwiftUI_PracticeApp.swift in Sources */,
 			);
