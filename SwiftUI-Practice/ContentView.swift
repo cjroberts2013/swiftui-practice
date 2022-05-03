@@ -10,9 +10,10 @@ import SwiftUI
 struct ContentView: View {
     
     @State private var isShowing = false
+    @Binding var text: String
     
     var body: some View {
-//        NavigationView {
+        NavigationView {
 //            ZStack {
 //                if isShowing {
 //                    SideMenuView(isShowing: $isShowing)
@@ -34,15 +35,15 @@ struct ContentView: View {
 //            .onAppear {
 //                isShowing = false
 //            }
-//        }
         
-        AmazonMusicSearch()
+        AmazonMusicSearch(text: $text)
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(text: .constant("Testing"))
             .previewDevice(PreviewDevice(rawValue: "iPhone 13 Pro"))
     }
 }
