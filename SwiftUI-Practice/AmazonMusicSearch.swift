@@ -50,6 +50,8 @@ struct AmazonMusicSearch: View {
                 }
                 .padding()
                 
+                GenreCardView(title: "Poppp", primaryColor: .blue)
+                
                 Spacer()
             }
             
@@ -66,6 +68,24 @@ struct AmazonMusicSearch_Previews: PreviewProvider {
     static var previews: some View {
         AmazonMusicSearch(text: .constant("Testing"))
             .previewDevice(PreviewDevice(rawValue: "iPhone 13 Pro"))
+    }
+}
+
+struct GenreCardView: View {
+    let title: String
+    let primaryColor: Color
+    
+    var body: some View {
+        ZStack {
+            RoundedRectangle(cornerRadius: 12)
+                .fill(LinearGradient(gradient: Gradient(colors: [primaryColor, .black]), startPoint: .topLeading, endPoint: .bottomTrailing))
+                .frame(width: 180, height: 75)
+            
+            Text(title)
+                .fontWeight(.bold)
+                .font(.system(size: 20))
+                .foregroundColor(.white)
+        }
     }
 }
 
