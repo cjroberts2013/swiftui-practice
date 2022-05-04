@@ -196,7 +196,6 @@
 				7D466146281F03BF00FBAE67 /* Sources */,
 				7D466147281F03BF00FBAE67 /* Frameworks */,
 				7D466148281F03BF00FBAE67 /* Resources */,
-				84CC6700578D26337BA00DD7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,7 +233,6 @@
 				7D466160281F03C000FBAE67 /* Sources */,
 				7D466161281F03C000FBAE67 /* Frameworks */,
 				7D466162281F03C000FBAE67 /* Resources */,
-				18C50B65CAD91AA997A793C1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -316,23 +314,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		18C50B65CAD91AA997A793C1 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-Practice-SwiftUI-PracticeUITests/Pods-SwiftUI-Practice-SwiftUI-PracticeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-Practice-SwiftUI-PracticeUITests/Pods-SwiftUI-Practice-SwiftUI-PracticeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-Practice-SwiftUI-PracticeUITests/Pods-SwiftUI-Practice-SwiftUI-PracticeUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5AEBEC920F2306C91EB4E312 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -375,23 +356,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		84CC6700578D26337BA00DD7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-Practice/Pods-SwiftUI-Practice-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-Practice/Pods-SwiftUI-Practice-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-Practice/Pods-SwiftUI-Practice-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EFD1216B51232D29E92C7E3C /* [CP] Check Pods Manifest.lock */ = {

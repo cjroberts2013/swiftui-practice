@@ -6,9 +6,6 @@ target 'SwiftUI-Practice' do
   use_frameworks!
 
   # Pods for SwiftUI-Practice
-  pod 'MaterialComponents/Dialogs'
-  pod 'MaterialComponents/Buttons'
-  pod 'MaterialComponents/Cards'
 
   target 'SwiftUI-PracticeTests' do
     inherit! :search_paths
