@@ -30,5 +30,4 @@ enum AmazonMusicSearchModel: Int, CaseIterable {
         case .musicvideos: return "video.fill"
         }
     }
-    
 }

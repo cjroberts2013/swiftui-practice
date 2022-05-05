@@ -21,7 +21,7 @@ struct AmazonTabController: View {
                     Text("Find")
                 }
             
-            Text("Library")
+            AmazonMusicLibrary()
                 .tabItem {
                     Image(systemName: "headphones")
                     Text("Library")
