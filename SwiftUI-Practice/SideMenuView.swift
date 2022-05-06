@@ -20,7 +20,7 @@ struct SideMenuView: View {
                     .frame(height: 240)
                 
                 ForEach(SideMenuViewModel.allCases, id: \.self) { option in
-                    NavigationLink(destination: Text(option.title)) { // Add a view instead of the Text to build out further
+                    NavigationLink(destination: option.viewController()) { // Add a view instead of the Text to build out further
                         SideMenuOptionView(option: option)
                     }
                 }
