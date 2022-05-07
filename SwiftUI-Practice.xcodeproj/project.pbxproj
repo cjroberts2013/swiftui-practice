@@ -19,6 +19,7 @@
 		7D46617A281F07E000FBAE67 /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D466179281F07E000FBAE67 /* SideMenuHeaderView.swift */; };
 		7D46617C281F07EC00FBAE67 /* SideMenuOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46617B281F07EC00FBAE67 /* SideMenuOptionView.swift */; };
 		7D46617E281F07F900FBAE67 /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D46617D281F07F900FBAE67 /* SideMenuViewModel.swift */; };
+		7DA9779D2826109E0039BF03 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA9779C2826109E0039BF03 /* SettingsViewController.swift */; };
 		7DF563EE2822149000D267C3 /* AmazonTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF563ED2822149000D267C3 /* AmazonTabController.swift */; };
 		7DF563F0282367AB00D267C3 /* ScrollingPillButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF563EF282367AB00D267C3 /* ScrollingPillButtonView.swift */; };
 		7DF563F2282367D500D267C3 /* AmazonMusicLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF563F1282367D500D267C3 /* AmazonMusicLibrary.swift */; };
@@ -64,6 +65,7 @@
 		7D466179281F07E000FBAE67 /* SideMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuHeaderView.swift; sourceTree = "<group>"; };
 		7D46617B281F07EC00FBAE67 /* SideMenuOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionView.swift; sourceTree = "<group>"; };
 		7D46617D281F07F900FBAE67 /* SideMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewModel.swift; sourceTree = "<group>"; };
+		7DA9779C2826109E0039BF03 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		7DF563ED2822149000D267C3 /* AmazonTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonTabController.swift; sourceTree = "<group>"; };
 		7DF563EF282367AB00D267C3 /* ScrollingPillButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingPillButtonView.swift; sourceTree = "<group>"; };
 		7DF563F1282367D500D267C3 /* AmazonMusicLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonMusicLibrary.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 		7D46614C281F03BF00FBAE67 /* SwiftUI-Practice */ = {
 			isa = PBXGroup;
 			children = (
+				7DA9779B2826107F0039BF03 /* Settings */,
 				7DFDFD0A2822142F0049A283 /* Amazon */,
 				7D46614D281F03BF00FBAE67 /* SwiftUI_PracticeApp.swift */,
 				7D46614F281F03BF00FBAE67 /* ContentView.swift */,
@@ -167,6 +170,14 @@
 				7D46616A281F03C000FBAE67 /* SwiftUI_PracticeUITestsLaunchTests.swift */,
 			);
 			path = "SwiftUI-PracticeUITests";
+			sourceTree = "<group>";
+		};
+		7DA9779B2826107F0039BF03 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				7DA9779C2826109E0039BF03 /* SettingsViewController.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 		7DFDFD0A2822142F0049A283 /* Amazon */ = {
@@ -417,6 +428,7 @@
 				7D46617C281F07EC00FBAE67 /* SideMenuOptionView.swift in Sources */,
 				7DFDFCC92820A6850049A283 /* AmazonMusicSearch.swift in Sources */,
 				7DFDFCCB2820A7380049A283 /* AmazonMusicSearchModel.swift in Sources */,
+				7DA9779D2826109E0039BF03 /* SettingsViewController.swift in Sources */,
 				7D46617E281F07F900FBAE67 /* SideMenuViewModel.swift in Sources */,
 				7D46614E281F03BF00FBAE67 /* SwiftUI_PracticeApp.swift in Sources */,
 			);

@@ -12,14 +12,14 @@ import SwiftUI
 enum SideMenuViewModel: Int, CaseIterable {
     case profile
     case messages
-    case notifications
+    case settings
     case amazon
     
     var title: String {
         switch self {
         case .profile: return "Profile"
         case .messages: return "Messages"
-        case .notifications: return "Notifications"
+        case .settings: return "Settings"
         case .amazon: return "Amazon Music"
         }
     }
@@ -28,16 +28,16 @@ enum SideMenuViewModel: Int, CaseIterable {
         switch self {
         case .profile: return "person"
         case .messages: return "bubble.left"
-        case .notifications: return "bell"
+        case .settings: return "gear"
         case .amazon: return "music.note"
         }
     }
     
-    func viewController() -> some View {
+    var viewController: AnyView {
         switch self {
-        case .profile: return AmazonTabController()
-        case .messages: return AmazonTabController()
-        case .notifications: return AmazonTabController()
+        case .profile: return SettingsViewController()
+        case .messages: return SettingsViewController()
+        case .settings: return SettingsViewController()
         case .amazon: return AmazonTabController()
         }
     }
