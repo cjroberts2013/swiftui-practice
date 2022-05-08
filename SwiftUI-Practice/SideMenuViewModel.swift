@@ -33,12 +33,12 @@ enum SideMenuViewModel: Int, CaseIterable {
         }
     }
     
-    var viewController: AnyView {
+    func viewController() -> some View {
         switch self {
         case .profile: return SettingsViewController()
         case .messages: return SettingsViewController()
         case .settings: return SettingsViewController()
-        case .amazon: return AmazonTabController()
+        case .amazon: return SettingsViewController()
         }
     }
     
